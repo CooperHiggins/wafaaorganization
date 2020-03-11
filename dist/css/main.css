@@ -122,6 +122,8 @@ button.btn:hover {
   background-color: white;
   overflow: hidden;
   font-family: sans-serif;
+  -webkit-box-shadow: 0px 2px #8000808c;
+          box-shadow: 0px 2px #8000808c;
 }
 
 /* Style the links inside the navigation bar */
@@ -460,7 +462,7 @@ button {
 
 /* BEGIN RESPONSIVE FONT CSS */
 button {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 h1 {
