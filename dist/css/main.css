@@ -103,6 +103,10 @@ button.btn:hover {
   display: grid;
 }
 
+.w-8 {
+  max-width: 8em !important;
+}
+
 /* END TA-DA! UTILITITES */
 /*END IMAGE STYLES*/
 /* BEGIN COMPONENT CSS */
