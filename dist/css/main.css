@@ -107,6 +107,10 @@ button.btn:hover {
   max-width: 8em !important;
 }
 
+.w-12 {
+  max-width: 12em !important;
+}
+
 /* END TA-DA! UTILITITES */
 /*END IMAGE STYLES*/
 /* BEGIN COMPONENT CSS */
