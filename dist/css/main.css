@@ -84,7 +84,7 @@ button {
 /* RESPONSIVE NAVBAR CSS */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: var(--tada-purple);
+  background-color: white;
   overflow: hidden;
   font-family: sans-serif;
 }
@@ -93,7 +93,7 @@ button {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--tada-purple);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -103,7 +103,7 @@ button {
 /* Add an active class to highlight the current page */
 .active {
   background-color: var(--tada-purple);
-  color: white;
+  color: var(--tada-purple);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -122,11 +122,12 @@ button {
   font-size: 17px;
   border: none;
   outline: none;
-  color: white;
+  color: var(--tada-purple);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  border-radius: 0px;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -152,8 +153,8 @@ button {
 
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+  background-color: white;
+  color: purple;
 }
 
 /* Add a grey background to dropdown links on hover */
@@ -248,7 +249,7 @@ button {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: white;
 }
 
 /* Fading animation */
