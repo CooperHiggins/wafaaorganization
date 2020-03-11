@@ -84,8 +84,9 @@ button {
 /* RESPONSIVE NAVBAR CSS */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: var(--tada-purple);
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 /* Style the links inside the navigation bar */
