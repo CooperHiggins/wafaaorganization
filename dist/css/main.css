@@ -111,14 +111,16 @@ button.btn.donate:hover {
   color: #7402ac;
   -webkit-box-shadow: 1px 1px 5px #888888;
           box-shadow: 1px 1px 5px #888888;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 button.btn.donate {
   padding: .2em;
   padding-left: 1em;
   padding-right: 1em;
-  background: -webkit-gradient(linear, left top, right top, from(var(--tada-dark-purple)), to(#7402ac));
-  background: linear-gradient(to right, var(--tada-dark-purple), #7402ac);
+  background: -webkit-gradient(linear, left top, right top, from(var(--tada-dark-purple)), to(#85559c));
+  background: linear-gradient(to right, var(--tada-dark-purple), #85559c);
   color: white;
   cursor: pointer;
 }
@@ -297,20 +299,12 @@ g {
 
 @-webkit-keyframes g {
   0% {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
-  }
-  100% {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
-  }
-  0% {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   25% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
   }
   50% {
     -webkit-transform: rotate(10deg);
@@ -328,20 +322,12 @@ g {
 
 @keyframes g {
   0% {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
-  }
-  100% {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
-  }
-  0% {
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   25% {
-    -webkit-transform: rotate(15deg);
-            transform: rotate(15deg);
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
   }
   50% {
     -webkit-transform: rotate(10deg);
