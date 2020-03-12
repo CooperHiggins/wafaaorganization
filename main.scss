@@ -23,6 +23,9 @@ color: white;
 .header-p {
     color: #8256dc;
 }
+span#black {
+    color: black;
+}
 body {
 padding: 0em;
 margin: 0em;
@@ -70,10 +73,26 @@ border-radius: 50pc;
 padding-right: 1rem;
 padding-left: 1rem;
 padding: .6rem;
+cursor: pointer;
 }
 button.btn:hover {
 background-color: var(--tada-dark-purple);
 color: white;
+transition: 1s;
+}
+button.btn.donate:hover {
+    background: linear-gradient(to right, white,  white);
+    color: #7402ac;
+    box-shadow: 1px 1px 5px #888888;
+}
+button.btn.donate {
+    padding: .2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: -webkit-gradient(linear, left top, right top, from(var(--tada-dark-purple)), to(#7402ac));
+    background: linear-gradient(to right, var(--tada-dark-purple), #7402ac);
+    color: white;
+    cursor: pointer;
 }
 /* TA-DA! UTILITIES */
 .m-auto {
@@ -116,6 +135,8 @@ display: flex;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    justify-content: center;
+    display: flex;
   }
   
   /* Add an active class to highlight the current page */

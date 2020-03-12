@@ -8,19 +8,21 @@
 
     <link href="https://fonts.googleapis.com/css?family=Bellota+Text:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="dist/css/main.css">
 
 </head>
 <body>
 <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">24/7 Crisis Hotline</a>
-    <a href="#contact">Contact</a>
+    <a href="#home" class="logo mr-auto ml-3"><p class="m-0 f-2"><span id="black">Wa</span><span id="purple">faa</span></p></a>
+    <a href="#home" class="active m-auto">Home</a>
+    <a href="#news" class="m-auto">24/7 Crisis Hotline</a>
+    <a href="#contact" class="m-auto">Contact</a>
 
-    <a href="#about">About The Founder</a>
+    <a href="#about" class="m-auto">About The Founder</a>
     
-        <a href="#anger-management">Anger Management</a>
-        <div class="dropdown">
+        <a href="#anger-management" class="m-auto">Anger Management</a>
+        <div class="dropdown m-auto">
 
             <button class="dropbtn">Dropdown
             <i class="fa fa-caret-down"></i>
@@ -32,6 +34,8 @@
             <a href="#">Link 3</a>
             </div>
         </div>
+
+        <a href="#home" class="logo ml-auto mr-2"><button class="btn donate m-auto">Donate</button></a>
 
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
  </div>
@@ -338,8 +342,8 @@
 </div>
 </section>
 
-<section id="did-you-know">
-    <div class="container-fluid bg-purple white-text">
+<section id="did-you-know wow animated">
+    <div class="container-fluid bg-purple white-text wow fadeIn slow animated" data-wow-duration="4s">
         <div class="row p-5">
 
             <div class="col">
@@ -551,8 +555,10 @@
 
 </section>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script>
+new WOW().init();
+</script>
     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");

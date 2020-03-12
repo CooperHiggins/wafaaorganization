@@ -34,6 +34,10 @@
   color: #8256dc;
 }
 
+span#black {
+  color: black;
+}
+
 body {
   padding: 0em;
   margin: 0em;
@@ -91,11 +95,32 @@ button {
   padding-right: 1rem;
   padding-left: 1rem;
   padding: .6rem;
+  cursor: pointer;
 }
 
 button.btn:hover {
   background-color: var(--tada-dark-purple);
   color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+button.btn.donate:hover {
+  background: -webkit-gradient(linear, left top, right top, from(white), to(white));
+  background: linear-gradient(to right, white, white);
+  color: #7402ac;
+  -webkit-box-shadow: 1px 1px 5px #888888;
+          box-shadow: 1px 1px 5px #888888;
+}
+
+button.btn.donate {
+  padding: .2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: -webkit-gradient(linear, left top, right top, from(var(--tada-dark-purple)), to(#7402ac));
+  background: linear-gradient(to right, var(--tada-dark-purple), #7402ac);
+  color: white;
+  cursor: pointer;
 }
 
 /* TA-DA! UTILITIES */
@@ -147,6 +172,12 @@ button.btn:hover {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* Add an active class to highlight the current page */
