@@ -26,6 +26,14 @@
   color: white;
 }
 
+.purple-text {
+  color: var(--tada-purple);
+}
+
+.header-p {
+  color: #8256dc;
+}
+
 body {
   padding: 0em;
   margin: 0em;
@@ -369,6 +377,24 @@ g {
     display: -ms-flexbox;
     display: flex;
   }
+  .w-lg-45 {
+    min-width: 45%;
+  }
+  .pl-lg-6 {
+    padding-left: 3rem !important;
+  }
+  .pt-lg-12 {
+    padding-top: 6rem !important;
+  }
+  svg#b64b805f-e6f6-44d8-97ce-775b67d7efb4 {
+    width: auto;
+    height: 85%;
+    z-index: -1;
+    top: 0;
+  }
+  .f-xl-4 {
+    font-size: 4em;
+  }
 }
 
 /* BEGIN UTILITIES */
@@ -382,10 +408,6 @@ g {
 }
 
 .f-3 {
-  font-size: 3em;
-}
-
-.f-4 {
   font-size: 3em;
 }
 
