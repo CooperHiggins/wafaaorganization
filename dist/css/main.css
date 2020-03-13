@@ -234,6 +234,7 @@ button.btn.donate {
   text-decoration: none;
   display: block;
   text-align: left;
+  border-radius: 50px;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
